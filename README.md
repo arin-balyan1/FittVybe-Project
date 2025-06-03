@@ -1,12 +1,58 @@
 # flutter_projects
 
-A new Flutter project.
 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
+Trainer Dashboard App - Flutter
+Overview
+A professional fitness trainer dashboard application built with Flutter that helps trainers manage their schedules, clients, and session bookings efficiently.
+
+Features
+Core Functionality
+🏋️ Session scheduling and management
+
+👥 Client booking system
+
+💰 Earnings tracking
+
+📅 Weekly calendar view
+
+🔔 Session request notifications
+
+User Interface
+🌗 Light/dark mode toggle
+
+📊 Interactive statistics dashboard
+
+🎨 Modern Material 3 design
+
+✨ Smooth animations and transitions
+
+Installation
+Prerequisites
+
+Flutter SDK installed
+
+Dart SDK installed
+
+Android Studio/VSCode with Flutter plugin
+
+Setup
+git clone https://github.com/arin-balyan1/FittVybe-Project
+cd trainer-dashboard
+flutter pub get
+flutter run
+
+Dependencies
+flutter/material.dart - Core Flutter material widgets
+
+intl - Date/time formatting
+
+
+
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
