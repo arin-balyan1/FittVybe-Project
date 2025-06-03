@@ -36,6 +36,11 @@ Core Functionality
 User Interface
 🌗 Light/dark mode toggle
 
+Dark Mode Appearance 
+
+![image alt](https://github.com/arin-balyan1/FittVybe-Project/blob/36a737d6da4ee146554b64c0b226a82c5bc49bb6/5_night_mode.png)
+
+
 📊 Interactive statistics dashboard
 
 🎨 Modern Material 3 design
