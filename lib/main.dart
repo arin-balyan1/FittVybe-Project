@@ -708,7 +708,7 @@ class _DashboardScreenState extends State<DashboardScreen> with TickerProviderSt
 
                 SizedBox(height: 24),
 
-                // Enhanced Add Slot Button
+
                 Container(
                   width: double.infinity,
                   height: 56,
@@ -778,12 +778,12 @@ class _DashboardScreenState extends State<DashboardScreen> with TickerProviderSt
           Row(
             children: [
               Container(
-                padding: EdgeInsets.all(4), // Reduced padding
+                padding: EdgeInsets.all(4),
                 decoration: BoxDecoration(
                   color: color.withOpacity(0.1),
                   borderRadius: BorderRadius.circular(6),
                 ),
-                child: Icon(icon, color: color, size: 18), // Smaller icon
+                child: Icon(icon, color: color, size: 18),
               ),
               Spacer(),
               Container(
