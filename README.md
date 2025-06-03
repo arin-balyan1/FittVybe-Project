@@ -26,6 +26,11 @@ Core Functionality
 
 📅 Weekly calendar view
 
+
+![image alt](https://github.com/arin-balyan1/FittVybe-Project/blob/1ae0fba8b7113bd6e3993c2c83ed121f2e5e846e/2c.png)
+
+
+
 🔔 Session request notifications
 
 User Interface
