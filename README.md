@@ -38,14 +38,11 @@ Android Studio/VSCode with Flutter plugin
 
 Setup
 git clone https://github.com/arin-balyan1/FittVybe-Project
-cd trainer-dashboard
-flutter pub get
-flutter run
 
-Dependencies
-flutter/material.dart - Core Flutter material widgets
 
-intl - Date/time formatting
+
+External Dependencies-intl
+
 
 
 
