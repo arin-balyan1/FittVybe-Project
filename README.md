@@ -5,7 +5,17 @@
 
 
 A professional fitness trainer dashboard application built with Flutter that helps trainers manage their schedules, clients, and session bookings efficiently.
+
+
+
+
 ![image alt](https://github.com/arin-balyan1/FittVybe-Project/blob/bd68713df2a3bcb75558080ce20a3cee064460bb/1.png)
+
+
+
+
+
+
 Features
 Core Functionality
 🏋️ Session scheduling and management
