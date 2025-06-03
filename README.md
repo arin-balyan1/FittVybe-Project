@@ -28,7 +28,12 @@ A confirmation option (OK) to finalize the selected time
 
 This implementation enables trainers to define and manage their available time slots, which can then be viewed by other users for scheduling or booking purposes.
 
+
+
 ![image alt](https://github.com/arin-balyan1/FittVybe-Project/blob/be9a769e35c899f1e3571f3760941c70e36ebc57/4_clock_extra.png)
+
+
+
 Features
 Core Functionality
 🏋️ Session scheduling and management
