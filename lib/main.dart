@@ -186,7 +186,7 @@ class _DashboardScreenState extends State<DashboardScreen> with TickerProviderSt
       });
       slotsPerDay[newSlot['day']] = (slotsPerDay[newSlot['day']] ?? 0) + 1;
     });
-    _showSnackBar('New slot added successfully! 🕒', Colors.green);
+    _showSnackBar('New slot added successfully! ', Colors.green);
   }
 
   void _showSnackBar(String message, Color color) {
@@ -305,7 +305,6 @@ class _DashboardScreenState extends State<DashboardScreen> with TickerProviderSt
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                // Enhanced Profile Status Card
                 Container(
                   width: double.infinity,
                   padding: EdgeInsets.all(20),
@@ -364,15 +363,14 @@ class _DashboardScreenState extends State<DashboardScreen> with TickerProviderSt
 
                 SizedBox(height: 24),
 
-                // Enhanced Stats Grid
-                // Enhanced Stats Grid
+
                 GridView.count(
                   crossAxisCount: 2,
                   shrinkWrap: true,
                   physics: NeverScrollableScrollPhysics(),
-                  crossAxisSpacing: 8, // Reduced spacing
-                  mainAxisSpacing: 8, // Reduced spacing
-                  childAspectRatio: 1, // More square aspect ratio
+                  crossAxisSpacing: 8,
+                  mainAxisSpacing: 8,
+                  childAspectRatio: 1,
                   children: [
                     _buildStatCard(
                       'Weekly Earnings',
@@ -406,8 +404,6 @@ class _DashboardScreenState extends State<DashboardScreen> with TickerProviderSt
                 ),
 
                 SizedBox(height: 12),
-
-                // Enhanced Next Session Card
                 Container(
                   width: double.infinity,
                   padding: EdgeInsets.all(20),
@@ -530,7 +526,6 @@ class _DashboardScreenState extends State<DashboardScreen> with TickerProviderSt
 
                 SizedBox(height: 24),
 
-                // Enhanced Calendar View
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
@@ -765,14 +760,14 @@ class _DashboardScreenState extends State<DashboardScreen> with TickerProviderSt
 
   Widget _buildStatCard(String title, String value, IconData icon, Color color, String change) {
     return Container(
-      padding: EdgeInsets.all(10), // Reduced padding
+      padding: EdgeInsets.all(10),
       decoration: BoxDecoration(
         color: isDarkMode ? Colors.grey[800] : Colors.white,
-        borderRadius: BorderRadius.circular(10), // Slightly smaller radius
+        borderRadius: BorderRadius.circular(10),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.05), // Lighter shadow
-            blurRadius: 4, // Smaller blur
+            color: Colors.black.withOpacity(0.05),
+            blurRadius: 4,
             offset: Offset(0, 2),
           ),
         ],
@@ -808,20 +803,20 @@ class _DashboardScreenState extends State<DashboardScreen> with TickerProviderSt
               ),
             ],
           ),
-          SizedBox(height: 4), // Reduced spacing
+          SizedBox(height: 4),
           Text(
             value,
             style: TextStyle(
-              fontSize: 18, // Smaller font size
+              fontSize: 18,
               fontWeight: FontWeight.bold,
               color: isDarkMode ? Colors.white : Colors.black87,
             ),
           ),
-          SizedBox(height: 2), // Minimal spacing
+          SizedBox(height: 2),
           Text(
             title,
             style: TextStyle(
-              fontSize: 11, // Smaller font size
+              fontSize: 11,
               color: Colors.grey[600],
             ),
           ),
