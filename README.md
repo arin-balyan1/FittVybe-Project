@@ -15,7 +15,20 @@ A professional fitness trainer dashboard application built with Flutter that hel
 
 
 
+## Trainer Slot Time Picker
+The image above showcases the time picker dialog used in the Add New Slot screen of the application. This feature allows the trainer to select a specific time for their availability on a given day. The interface supports:
 
+Day selection (e.g., Monday, Tuesday, etc.)
+
+Time selection using a clock-style UI with AM/PM toggle
+
+Easy-to-use circular dial to set both hours and minutes
+
+A confirmation option (OK) to finalize the selected time
+
+This implementation enables trainers to define and manage their available time slots, which can then be viewed by other users for scheduling or booking purposes.
+
+![image alt](https://github.com/arin-balyan1/FittVybe-Project/blob/be9a769e35c899f1e3571f3760941c70e36ebc57/4_clock_extra.png)
 Features
 Core Functionality
 🏋️ Session scheduling and management
@@ -33,6 +46,11 @@ Core Functionality
 
 🔔 Session request notifications
 
+Interface after clicking on notification icon
+
+![image alt](https://github.com/arin-balyan1/FittVybe-Project/blob/be9a769e35c899f1e3571f3760941c70e36ebc57/6_notificationbar_night_mode.png)
+
+
 User Interface
 🌗 Light/dark mode toggle
 
@@ -46,6 +64,12 @@ Dark Mode Appearance
 🎨 Modern Material 3 design
 
 ✨ Smooth animations and transitions
+
+Interface after clicking on the add slot button
+
+![image alt](https://github.com/arin-balyan1/FittVybe-Project/blob/be9a769e35c899f1e3571f3760941c70e36ebc57/3_add_new_slot.png)
+
+
 
 Installation
 Prerequisites
