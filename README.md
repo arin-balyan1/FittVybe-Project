@@ -1,13 +1,9 @@
-# flutter_projects
+# Trainer Dashboard App - Flutter
 
 
-## Getting Started
+## Overview
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-Trainer Dashboard App - Flutter
-Overview
 A professional fitness trainer dashboard application built with Flutter that helps trainers manage their schedules, clients, and session bookings efficiently.
 
 Features
